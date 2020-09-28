@@ -1,0 +1,22 @@
+{
+  "name": "gulp-pug",
+  "version": "1.0.0",
+  "description": "train",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitali30/gulp-pug-probe.git"
+  },
+  "author": "vitali30",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitali30/gulp-pug-probe/issues"
+  },
+  "homepage": "https://github.com/vitali30/gulp-pug-probe#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
