@@ -1,13 +1,56 @@
-<!DOCTYPE html>
+
+
 html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Document
+        title= titleName
+        //- link(rel="stylesheet", href="css/style.css")
     body
-        div.box
-        ul.nav
-            li
-            li
-            li
-            li
+        div.wrapper
+            ul
+                - for(let x = 0; x< 3; x ++)
+                    li item 
+                        a(href="#") anchor
+
+            header.heasder
+                .container
+                    .logo.logogo
+                    nav.menu
+                        ul
+                            li Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eum dolore, laboriosam tenetur quas facere sed! Dolorem quae placeat, et ab eius repellendus cupiditate quibusdam est odio, omnis voluptatem ipsum.
+                            li.
+                                Далеко-далеко за, словесными <em>texting text</em> горами в стране гласных и согласных живут рыбные тексты. Грустный мир, от всех о выйти деревни снова она осталось пор, города строчка живет! Жизни безорфографичный обеспечивает рыбными переулка курсивных жаренные.
+                            li
+                                a(href="#") Any text
+                            li#id1
+                            li
+            .array_circle
+                ul
+                    -
+                        let visitors = ['Uno', 'Duo', 'Tres', 'Cuatro', 'Cinco', 'Seis']
+                    each item in visitors
+                        li= item
+
+            .example__use_const
+                if flag 
+                    p.text Flag === true
+                else
+                    p.text Flag === false
+
+            .include__example_one
+                include include-example.pug
+
+            footer.footer
+                |
+                |
+                a(href="#") 1
+                |
+                |
+                a(href="#") 2
+                |
+                |
+                a(href="#") 3
+
+
+
